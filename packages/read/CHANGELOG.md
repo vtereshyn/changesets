@@ -1,5 +1,12 @@
 # @changesets/read
 
+## 0.5.5
+
+### Patch Changes
+
+- Updated dependencies [[`eb86652`](https://github.com/changesets/changesets/commit/eb86652cbd21c49f90d2a03caa9a578593c4d102)]:
+  - @changesets/git@1.3.2
+
 ## 0.5.4
 
 ### Patch Changes

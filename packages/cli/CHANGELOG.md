@@ -1,5 +1,19 @@
 # @changesets/cli
 
+## 2.21.2
+
+### Patch Changes
+
+- [#776](https://github.com/changesets/changesets/pull/776) [`ad7506d`](https://github.com/changesets/changesets/commit/ad7506dc6973293a6f913653c2a6a15ba5b8b500) Thanks [@janosh](https://github.com/janosh)! - `changeset init` will now configure `baseBranch: "main"` in the `.changeset/config.json` as the default value.
+
+* [#770](https://github.com/changesets/changesets/pull/770) [`eb86652`](https://github.com/changesets/changesets/commit/eb86652cbd21c49f90d2a03caa9a578593c4d102) Thanks [@alizeait](https://github.com/alizeait)! - `changeset add` and `changeset status` should now properly handle the situation where Changesets are managed from a directory different than the root of the repository.
+
+* Updated dependencies [[`eb86652`](https://github.com/changesets/changesets/commit/eb86652cbd21c49f90d2a03caa9a578593c4d102)]:
+  - @changesets/git@1.3.2
+  - @changesets/apply-release-plan@5.0.6
+  - @changesets/read@0.5.5
+  - @changesets/get-release-plan@3.0.8
+
 ## 2.21.1
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @changesets/git
 
+## 1.3.2
+
+### Patch Changes
+
+- [#770](https://github.com/changesets/changesets/pull/770) [`eb86652`](https://github.com/changesets/changesets/commit/eb86652cbd21c49f90d2a03caa9a578593c4d102) Thanks [@alizeait](https://github.com/alizeait)! - `getChangedFilesSince` and `getChangedPackagesSinceRef` will now return the correct absolute paths of the changed files when the passed `cwd` is different from the repository's root.
+
 ## 1.3.1
 
 ### Patch Changes
